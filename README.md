@@ -1,5 +1,5 @@
 # Uni-Layout
-# Uni-Layout: Integrating Human Feedback in Unified Layout Generation and Evaluation
+## Uni-Layout: Integrating Human Feedback in Unified Layout Generation and Evaluation
 [ACM MM 2025] Official PyTorch Code for "Uni-Layout: Integrating Human Feedback in Unified Layout Generation and Evaluation"
 
 🚀 **Code & Weights Notice**  
