@@ -17,6 +17,12 @@ Layout generation plays a crucial role in enhancing both user experience and des
 ## 🚀 Code & Weights Notice
 The implementation code and pre-trained weights are currently undergoing JD Open-Source Review Process. We are committed to open-sourcing all materials to support research reproducibility.
 
+## 📊 Datasets
+### 1. Dataset for Generation Model
+[Download Link](hhttps://drive.google.com/drive/folders/1OLWRUZSiecpGuG2sUdQHOnmp46P9ojuD?usp=sharing).
+
+### 2. Dataset for Reward Model
+[Download Link](https://drive.google.com/drive/folders/1VASp90_mqSwJxJH65v5-iP9Sk3tgr23M?usp=drive_link).
 
 ## 📧 Contact for Urgent Requests
 If you require early access for research collaboration or encounter urgent issues, please contact: [shuolucs@gmail.com](mailto:shuolucs@gmail.com)
