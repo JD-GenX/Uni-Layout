@@ -19,7 +19,7 @@ The implementation code and pre-trained weights are currently undergoing JD Open
 
 ## 📊 Datasets
 ### 1. Dataset for Generation Model
-[Download Link](hhttps://drive.google.com/drive/folders/1OLWRUZSiecpGuG2sUdQHOnmp46P9ojuD?usp=sharing).
+[Download Link](https://drive.google.com/drive/folders/1OLWRUZSiecpGuG2sUdQHOnmp46P9ojuD?usp=sharing).
 
 ### 2. Dataset for Reward Model
 [Download Link](https://drive.google.com/drive/folders/1VASp90_mqSwJxJH65v5-iP9Sk3tgr23M?usp=drive_link).
