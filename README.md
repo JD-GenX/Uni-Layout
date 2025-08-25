@@ -26,3 +26,7 @@ The implementation code and pre-trained weights are currently undergoing JD Open
 
 ## 📧 Contact for Urgent Requests
 If you require early access for research collaboration or encounter urgent issues, please contact: [shuolucs@gmail.com](mailto:shuolucs@gmail.com)
+
+
+# Copyright & Licensing
+© JD.COM. All rights reserved. The datasets and software provided in this repository are licensed exclusively for academic research purposes. Commercial use, reproduction, or distribution requires express written permission from JD.COM. Unauthorized commercial use constitutes a violation of these terms and is strictly prohibited.
