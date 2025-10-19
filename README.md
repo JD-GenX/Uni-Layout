@@ -18,12 +18,27 @@ Layout generation plays a crucial role in enhancing both user experience and des
 ## 🚀 Code & Weights Notice
 The implementation code and pre-trained weights are currently undergoing JD Open-Source Review Process. We are committed to open-sourcing all materials to support research reproducibility.
 
+- Reward Model Checkpoints: [Download Link](https://drive.google.com/drive/folders/1evrHmorHW7CBLRhxrV3-3qvFki1ovoJ3?usp=drive_link)
+
 ## 📊 Datasets
 ### 1. Dataset for Generation Model
 [Download Link](https://drive.google.com/drive/folders/1OLWRUZSiecpGuG2sUdQHOnmp46P9ojuD?usp=sharing).
 
+#### Key Fields
+- **`sku_id`**: Anonymized sample identifier.
+- **`image`**: Path to the image (optional; may be absent for text-only tasks).
+- **`conversations`**: List of two messages:
+  - **human**: Task description, may include the `<image>` placeholder, canvas size, element types, and layout constraints.
+  - **gpt**: Layout result; `value` is a string in the form `Layout:{...}`, where bounding boxes are `[x_min, y_min, width, height]`.
+
 ### 2. Dataset for Reward Model
 [Download Link](https://drive.google.com/drive/folders/1VASp90_mqSwJxJH65v5-iP9Sk3tgr23M?usp=drive_link).
+
+#### Key Fields
+- **`image`**: Path to the image.
+- **`conversations`**: Single-turn QA pair:
+  - **human**: Evaluation instruction with candidate layout and constraints; expects a binary decision (0/1).
+  - **gpt**: The answer; `value` is the Ground Truth label (0 or 1).
 
 ## 📧 Contact for Urgent Requests
 If you require early access for research collaboration or encounter urgent issues, please contact: [shuolucs@gmail.com](mailto:shuolucs@gmail.com)
