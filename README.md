@@ -29,7 +29,7 @@ The implementation code and pre-trained weights are currently undergoing JD Open
 - **`image`**: Path to the image (optional; may be absent for text-only tasks).
 - **`conversations`**: List of two messages:
   - **human**: Task description, may include the `<image>` placeholder, canvas size, element types, and layout constraints.
-  - **gpt**: Layout result; `value` is a string in the form `Layout:{...}`, where bounding boxes are `[x_min, y_min, width, height]`.
+  - **gpt**: Layout result; `value` is a string in the form `Layout:{...}`, where bounding boxes are `[x_min, y_min, x_max, y_max]`.
 
 ### 2. Dataset for Reward Model
 [Download Link](https://drive.google.com/drive/folders/1VASp90_mqSwJxJH65v5-iP9Sk3tgr23M?usp=drive_link).
