@@ -18,20 +18,20 @@ Layout generation plays a crucial role in enhancing both user experience and des
 ## 🚀 Code & Weights Notice
 The implementation code and pre-trained weights are currently undergoing JD Open-Source Review Process. We are committed to open-sourcing all materials to support research reproducibility.
 
-- Reward Model Checkpoints: [Download Link](https://drive.google.com/drive/folders/1evrHmorHW7CBLRhxrV3-3qvFki1ovoJ3?usp=drive_link)
+- Layout Evaluator Checkpoints: [Download Link](https://drive.google.com/drive/folders/1evrHmorHW7CBLRhxrV3-3qvFki1ovoJ3?usp=drive_link)
 
 ## 📊 Datasets
-### 1. Dataset for Generation Model
+### 1. Dataset for Layout Generator
 [Download Link](https://drive.google.com/drive/folders/1OLWRUZSiecpGuG2sUdQHOnmp46P9ojuD?usp=sharing).
 
 #### Key Fields
 - **`sku_id`**: Anonymized sample identifier.
 - **`image`**: Path to the image (optional; may be absent for text-only tasks).
 - **`conversations`**: List of two messages:
-  - **human**: Task description, may include the `<image>` placeholder, canvas size, element types, and layout constraints.
+  - **human**: Task description, may include the `<image>` tag, canvas size, element types, and layout constraints.
   - **gpt**: Layout result; `value` is a string in the form `Layout:{...}`, where bounding boxes are `[x_min, y_min, x_max, y_max]`.
 
-### 2. Dataset for Reward Model
+### 2. Dataset for Layout Evaluator
 [Download Link](https://drive.google.com/drive/folders/1VASp90_mqSwJxJH65v5-iP9Sk3tgr23M?usp=drive_link).
 
 #### Key Fields
