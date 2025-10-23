@@ -1,0 +1,5 @@
+accelerate
+transformers==4.38.2
+sentencepiece==0.1.99
+protobuf
+opencv-python-headless

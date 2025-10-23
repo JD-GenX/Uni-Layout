@@ -20,6 +20,34 @@ The implementation code and pre-trained weights are currently undergoing JD Open
 
 - Layout Evaluator Checkpoints: [Download Link](https://drive.google.com/drive/folders/1evrHmorHW7CBLRhxrV3-3qvFki1ovoJ3?usp=drive_link)
 
+### 🧪 Evaluation
+
+- **Script**: `evaluation.py`
+
+#### Requirements
+- Python >= 3.8 (recommend Anaconda/Miniconda)
+- PyTorch >= 2.3.1 + CUDA 11.8 (install from official wheel index)
+- Extra deps in `requirements.txt`
+
+#### Setup
+```bash
+conda create -n caig python==3.8.20 -y && conda activate caig
+pip install torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 --index-url https://download.pytorch.org/whl/cu118
+pip install -r requirements.txt
+```
+
+#### Run
+```bash
+python evaluation.py \
+  --model_path /path/to/model \
+  --input_data_path /path/to/input.json \
+  --output_data_path /path/to/output.json
+```
+
+#### Notes
+- Optional: `--model_base`, `--conv_mode`, generation args (`--temperature`, `--top_p`, `--num_beams`, `--max_new_tokens`, `--generate_nums`), and process args (`--save_interval`, `--batch_size`).
+- Input JSON follows the dataset format below; `image` field is optional.
+
 ## 📊 Datasets
 ### 1. Dataset for Layout Generator
 [Download Link](https://drive.google.com/drive/folders/1OLWRUZSiecpGuG2sUdQHOnmp46P9ojuD?usp=sharing).
