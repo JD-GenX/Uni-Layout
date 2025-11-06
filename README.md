@@ -66,4 +66,4 @@ python evaluation.py \
 
 
 # Copyright & Licensing
-© JD.COM. All rights reserved. The datasets and software provided in this repository are licensed exclusively for academic research purposes. Commercial use, reproduction, or distribution requires express written permission from JD.COM. Unauthorized commercial use constitutes a violation of these terms and is strictly prohibited.
+© JD.COM. All rights reserved. The datasets and code provided in this repository are licensed exclusively for academic research purposes. Commercial use, reproduction, or distribution requires express written permission from JD.COM. Unauthorized commercial use constitutes a violation of these terms and is strictly prohibited.
