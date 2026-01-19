@@ -56,7 +56,7 @@ python evaluation.py \
   - **gpt**: Layout result; `value` is a string in the form `Layout:{...}`, where bounding boxes are `[x_min, y_min, x_max, y_max]`.
 
 ### 2. Dataset for Layout Evaluator
-[Download Link]([https://drive.google.com/drive/folders/1VASp90_mqSwJxJH65v5-iP9Sk3tgr23M?usp=drive_link](https://drive.google.com/drive/folders/1f4wWDjfXgnYkVRsRpqoJAL25MtQBvsV6?usp=drive_link)).
+[Download Link]([https://drive.google.com/drive/folders/1wIAqwbqIurdXi3D-GMoucGuaUyFmZ2G-?usp=drive_link](https://drive.google.com/drive/folders/1wIAqwbqIurdXi3D-GMoucGuaUyFmZ2G-?usp=drive_link)).
 
 #### Key Fields
 - **`image`**: Path to the image.
